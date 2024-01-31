@@ -1,12 +1,13 @@
 <div class='field field--checkbox'>
 
   <button
+    name='{{name}}'
     onclick='fieldCheckbox.toggle(this);
     {{action}}("{{name}}", this.hasAttribute("active"));
     
     '
     type='button'
-    class='field__wrapper'
+    class='field__wrapper validation'
   >
     <span class='field__icon'></span>
     <span
