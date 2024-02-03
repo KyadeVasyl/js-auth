@@ -79,3 +79,14 @@
         }
     }
 }
+
+.link {
+    color: s.color(main);
+    @include s.click;
+     font-size: small;
+}
+
+.link__prefix {
+    color: s.color(light);
+    font-size: small;
+}
