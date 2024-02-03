@@ -14,6 +14,23 @@ User.create({
     role: 1,
 })
 
+User.create({
+    email: 'marika@gmail.com',
+    password: "jnfjndf5554",
+    role: 2,
+})
+
+User.create({
+    email: 'ivan@gmail.com',
+    password: "gnjfrF555",
+    role: 3,
+})
+
+User.create({
+    email: 'fina@gmail.com',
+    password: "NKFkmfkf655",
+    role: 1,
+})
 // ↙️ тут вводимо шлях (PATH) до сторінки
 router.get('/signup', function (req, res) {
     // res.render генерує нам HTML сторінку

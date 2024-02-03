@@ -90,3 +90,18 @@
     color: s.color(light);
     font-size: small;
 }
+
+
+
+
+.skeleton {
+    animation: skeleton-animation 1s infinite alternate;
+}
+
+@keyframes skeleton-animation {
+    from {
+         background-color: rgba(0,0,0,0.05);
+    } to {
+        background-color: rgba(0,0,0,0.15);
+    }
+}

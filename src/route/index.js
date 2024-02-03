@@ -84,5 +84,10 @@ const auth = require('./auth')
 
 router.use('/', auth)
 
+
+const user = require('./user')
+
+router.use('/', user)
+
 // Підключаємо роутер до бек-енду
 module.exports = router
